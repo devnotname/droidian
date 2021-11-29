@@ -50,7 +50,10 @@
 - Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
 - Mobile data quick toggle doesn't work.
 - Not every app will work as they might need aditional packages (eg: Telegram Desktop needs qtwayland5 to be installed to run). Google or [@Droidian](https://t.me/DroidianLinux) is your best friend in this case.
-- Droidian GSIs are experimental so  bugs and missing features are excepted.
+- Automatic app scaling [per app](https://forums.puri.sm/t/librem-5-scale-to-fit/11399/3) or globally: `gsettings set sm.puri.phoc scale-to-fit true`.
+- [Tweaks](https://wiki.mobian-project.org/doku.php?id=tweaks).
+- [Theming](https://wiki.mobian-project.org/doku.php?id=themes).
+- **Droidian GSIs are experimental! Bugs and missing features are expected.**
 
 
 # Support
