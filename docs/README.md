@@ -23,9 +23,9 @@
 | Voice in calls                	|  + 	| NFC                              	|  ? 	|                      	|   	|
 | Volume control in calls       	|  + 	| WiFi                             	|  + 	|                      	|   	|
 
-- *+*: *Confirmed working.*
-- *+-*: *Working to some extent but with issues.*
-- *-*: *Not Working.*
+- **+** *Confirmed working.*
+- **+-** *Working to some extent but with issues.*
+- **-** *Not Working.*
 
 
 ## Requirements
