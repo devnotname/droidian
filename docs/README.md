@@ -1,21 +1,45 @@
 # Droidian | Debian GNU/Linux 11.1
 
 
-## What works and what doesn't
-- Currently Droidian is in an experimental state, no bug list is created. Read the [Notes](#notes) section for more info.
+## Features & Usability
+
+| Manual brightnes              	|  + 	| Battery lifetime > 24h from 100% 	|  + 	| Flight mode          	| - 	|
+|-------------------------------	|:--:	|----------------------------------	|:--:	|----------------------	|:-:	|
+| Notification LED              	|  - 	| No reboot needed for 1 week      	|  - 	| Automatic brightness 	| + 	|
+| Torchlight                    	|  - 	| Boot into UI                     	|  + 	| Fingerprint reader   	| - 	|
+| Vibration                     	|  + 	| Hardware video playback          	|  + 	| GPS                  	| ? 	|
+| Flashlight                    	|  - 	| Anbox patches                    	|  + 	| Proximity            	| + 	|
+| Photo                         	|  - 	| AppArmor patches                 	|  + 	| Rotation             	| + 	|
+| Video                         	|  - 	| Battery percentage               	|  + 	| Touchscreen          	| + 	|
+| Switching between cameras     	|  - 	| Offline charging                 	| +- 	| Earphones            	| + 	|
+| Dual SIM functionality        	|  - 	| Online charging                  	|  + 	| Loudspeaker          	| + 	|
+| Carrier info, signal strength 	|  + 	| SD card detection and access     	|  ? 	| Microphone           	| + 	|
+| Data connection               	| +- 	| RTC time                         	|  + 	| Volume control       	| + 	|
+| Incoming, outgoing calls      	|  + 	| Shutdown / Reboot                	| +- 	| MTP access           	| - 	|
+| MMS in, out                   	|  ? 	| Wireless External monitor        	|  ? 	| ADB access           	| - 	|
+| Pin unlock                    	|  + 	| Bluetooth                        	|  + 	|                      	|   	|
+| SMS in, out                   	|  + 	| Flight mode                      	|  - 	|                      	|   	|
+| Change audio routings         	|  + 	| Hotspot                          	|  + 	|                      	|   	|
+| Voice in calls                	|  + 	| NFC                              	|  ? 	|                      	|   	|
+| Volume control in calls       	|  + 	| WiFi                             	|  + 	|                      	|   	|
+
+- *+*: *Confirmed working.*
+- *+-*: *Working to some extent but with issues.*
+- *-*: *Not Working.*
 
 
 ## Requirements
 
 - Android 10 firmware for your device:
-  - Redmi Note 9 Pro joyeuse: [LINK](https://xiaomifirmwareupdater.com/archive/miui/joyeuse/)
-  - Redmi Note 9s/9 Pro India curtana: [LINK](https://xiaomifirmwareupdater.com/archive/miui/curtana)
-  - Redmi Note 9 Pro Max excalibur: [LINK](https://xiaomifirmwareupdater.com/archive/miui/excalibur/)
-  - POCO M2 Pro gram: [LINK](https://xiaomifirmwareupdater.com/archive/miui/gram/)
+  - Redmi Note 9 Pro joyeuse: [LINK](https://xiaomifirmwareupdater.com/archive/miui/joyeuse/).
+  - Redmi Note 9s/9 Pro India curtana: [LINK](https://xiaomifirmwareupdater.com/archive/miui/curtana).
+  - Redmi Note 9 Pro Max excalibur: [LINK](https://xiaomifirmwareupdater.com/archive/miui/excalibur/).
+  - POCO M2 Pro gram: [LINK](https://xiaomifirmwareupdater.com/archive/miui/gram/).
 - Download the latest rootfs:  [droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip](https://github.com/droidian-images/rootfs-api29gsi-all/releases).
 - Download the latest devtools: [droidian-devtools-arm64_xxxxxxxx.zip](https://github.com/droidian-images/rootfs-api29gsi-all/releases).
 - Download the adaptation for miatoll: [droidian-adaptation-miatoll.zip](https://sourceforge.net/projects/miatoll-linux/files/Droidian/droidian-adaptation-miatoll.zip/download).
 - Download [boot.img](https://sourceforge.net/projects/miatoll-linux/files/Droidian/boot.img/download), [dtbo.img](https://sourceforge.net/projects/miatoll-linux/files/Droidian/dtbo.img/download), [vbmeta.img](https://sourceforge.net/projects/miatoll-linux/files/Droidian/vbmeta.img/download).
+
 
 ## Installation
 - Flash boot.img: `fastboot flash boot boot.img`.
@@ -39,7 +63,8 @@
 - `mount /dev/block/loopX mpoint` - Replace X with the number from the error above.
 - `tar -C /tmp/mpoint -xvf /tmp/devtools/payload.tar`.
 - `tar -C /tmp/mpoint -xvf /tmp/miatoll/payload.tar`.
-- `reboot`
+- `reboot`.
+  - *The first boot will take a while and the phone might reboot once or more during the boot process*.
 
 
 ## Notes
@@ -54,6 +79,10 @@
 - [Tweaks](https://wiki.mobian-project.org/doku.php?id=tweaks).
 - [Theming](https://wiki.mobian-project.org/doku.php?id=themes).
 - **Droidian GSIs are experimental! Bugs and missing features are expected.**
+
+## Factory reset
+- Boot into your favorite recovery.
+- Remove the `/data/rootfs-overlay` directory.
 
 
 # Support
