@@ -1,6 +1,3 @@
-# Droidian | Debian GNU/Linux 11.1
-
-
 ## Features & Usability
 
 | Manual brightnes              	|   	| Battery lifetime > 24h from 100% 	|   	| Flight mode          	| - 	|
