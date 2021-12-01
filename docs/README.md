@@ -2,24 +2,24 @@
 
 |                               	|    	|                                  	|    	|                      	|   	|
 |-------------------------------	|----	|----------------------------------	|----	|----------------------	|---	|
-| Manual brightnes              	|  + 	| Battery lifetime > 24h from 100% 	|  + 	| Flight mode          	| - 	|
-| Notification LED              	|  - 	| No reboot needed for 1 week      	|  - 	| Automatic brightness 	| + 	|
-| Torchlight                    	|  - 	| Boot into UI                     	|  + 	| Fingerprint reader   	| - 	|
-| Vibration                     	|  + 	| Hardware video playback          	|  + 	| GPS                  	| ? 	|
-| Flashlight                    	|  - 	| Anbox patches                    	|  + 	| Proximity            	| + 	|
-| Photo                         	|  - 	| AppArmor patches                 	|  + 	| Rotation             	| + 	|
-| Video                         	|  - 	| Battery percentage               	|  + 	| Touchscreen          	| + 	|
-| Switching between cameras     	|  - 	| Offline charging                 	| +- 	| Earphones            	| + 	|
-| Dual SIM functionality        	|  - 	| Online charging                  	|  + 	| Loudspeaker          	| + 	|
-| Carrier info, signal strength 	|  + 	| SD card detection and access     	|  ? 	| Microphone           	| + 	|
-| Data connection               	| +- 	| RTC time                         	|  + 	| Volume control       	| + 	|
-| Incoming, outgoing calls      	|  + 	| Shutdown / Reboot                	| +- 	| MTP access           	| - 	|
-| MMS in, out                   	|  + 	| Wireless External monitor        	|  ? 	| ADB access           	| - 	|
-| Pin unlock                    	|  + 	| Bluetooth                        	|  + 	|                      	|   	|
-| SMS in, out                   	|  + 	| Flight mode                      	|  - 	|                      	|   	|
-| Change audio routings         	|  + 	| Hotspot                          	|  + 	|                      	|   	|
-| Voice in calls                	|  + 	| NFC                              	|  ? 	|                      	|   	|
-| Volume control in calls       	|  + 	| WiFi                             	|  + 	|                      	|   	|
+| Manual brightnes              	|  + 	| Battery lifetime > 24h from 100% 	|  + 	| Automatic brightness  | + 	|
+| Notification LED              	|  - 	| No reboot needed for 1 week      	|  - 	| Fingerprint reader  	| - 	|
+| Torchlight                    	|  - 	| Boot into UI                     	|  + 	| GPS                 	| +- 	|
+| Vibration                     	|  + 	| Hardware video playback          	|  + 	| Proximity          	  | + 	|
+| Flashlight                    	|  - 	| Anbox patches                    	|  + 	| Rotation            	| + 	|
+| Photo                         	|  - 	| AppArmor patches                 	|  + 	| Touchscreen          	| + 	|
+| Video                         	|  - 	| Battery percentage               	|  + 	| Earphones           	| + 	|
+| Switching between cameras     	|  - 	| Offline charging                 	| +- 	| Loudspeaker          	| + 	|
+| Dual SIM functionality        	|  - 	| Online charging                  	|  + 	| Microphone          	| + 	|
+| Carrier info, signal strength 	|  + 	| SD card detection and access     	|  + 	| Volume control       	| + 	|
+| Data connection               	| +- 	| RTC time                         	|  + 	| Pin unlock           	| + 	|
+| Incoming, outgoing calls      	|  + 	| Shutdown / Reboot                	| +- 	| ADB access          	| - 	|
+| MMS in, out                   	|  ? 	| Wireless External monitor        	|  ? 	| MTP access           	| - 	|
+| SMS in, out                    	|  + 	| Bluetooth                        	|  + 	|                     	|   	|
+| Change audio routings          	|  +-	| Flight mode                      	|  - 	|                      	|   	|
+| Voice in calls                	|  + 	| Hotspot                         	|  +-	|                      	|   	|
+| Volume control in calls         |  + 	| NFC                              	|  ? 	|                      	|   	|
+| Flight mode  	                  |  - 	| WiFi                             	|  + 	|                      	|   	|
 
 - **+** *Confirmed working.*
 - **+-** *Working to some extent but with issues.*
