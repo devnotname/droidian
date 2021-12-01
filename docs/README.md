@@ -1,22 +1,23 @@
 ## Features & Usability
 
-| Manual brightnes              	|   	| Battery lifetime > 24h from 100% 	|   	| Flight mode          	| - 	|
-|-------------------------------	|:--:	|----------------------------------	|:--:	|----------------------	|:-:	|
-| Notification LED              	|  +- | No reboot needed for 1 week      	|  - 	| Automatic brightness 	| + 	|
+|                               	|    	|                                  	|    	|                      	|   	|
+|-------------------------------	|----	|----------------------------------	|----	|----------------------	|---	|
+| Manual brightnes              	|  + 	| Battery lifetime > 24h from 100% 	|  + 	| Flight mode          	| - 	|
+| Notification LED              	|  - 	| No reboot needed for 1 week      	|  - 	| Automatic brightness 	| + 	|
 | Torchlight                    	|  - 	| Boot into UI                     	|  + 	| Fingerprint reader   	| - 	|
-| Vibration                     	|  + 	| Hardware video playback          	|  + 	| GPS                  	| +- 	|
+| Vibration                     	|  + 	| Hardware video playback          	|  + 	| GPS                  	| ? 	|
 | Flashlight                    	|  - 	| Anbox patches                    	|  + 	| Proximity            	| + 	|
 | Photo                         	|  - 	| AppArmor patches                 	|  + 	| Rotation             	| + 	|
 | Video                         	|  - 	| Battery percentage               	|  + 	| Touchscreen          	| + 	|
 | Switching between cameras     	|  - 	| Offline charging                 	| +- 	| Earphones            	| + 	|
 | Dual SIM functionality        	|  - 	| Online charging                  	|  + 	| Loudspeaker          	| + 	|
-| Carrier info, signal strength 	|  + 	| SD card detection and access     	|  + 	| Microphone           	| + 	|
+| Carrier info, signal strength 	|  + 	| SD card detection and access     	|  ? 	| Microphone           	| + 	|
 | Data connection               	| +- 	| RTC time                         	|  + 	| Volume control       	| + 	|
 | Incoming, outgoing calls      	|  + 	| Shutdown / Reboot                	| +- 	| MTP access           	| - 	|
-| MMS in, out                   	|  ? 	| Wireless External monitor        	|  ? 	| ADB access           	| - 	|
+| MMS in, out                   	|  + 	| Wireless External monitor        	|  ? 	| ADB access           	| - 	|
 | Pin unlock                    	|  + 	| Bluetooth                        	|  + 	|                      	|   	|
 | SMS in, out                   	|  + 	| Flight mode                      	|  - 	|                      	|   	|
-| Change audio routings         	|  +-	| Hotspot                          	|  + 	|                      	|   	|
+| Change audio routings         	|  + 	| Hotspot                          	|  + 	|                      	|   	|
 | Voice in calls                	|  + 	| NFC                              	|  ? 	|                      	|   	|
 | Volume control in calls       	|  + 	| WiFi                             	|  + 	|                      	|   	|
 
