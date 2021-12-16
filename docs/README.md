@@ -65,6 +65,14 @@
   - *The first boot will take a while and the phone might reboot once or more during the boot process*.
 
 
+## Post Installation
+
+- Add the miatoll-linux repository to recieve kernel and device updates
+  - `wget -qO - "https://miatoll-linux.github.io/ppa/debian/KEY.gpg" | sudo apt-key add -`
+  - `sudo wget -qO /etc/apt/sources.list.d/miatoll.list "https://miatoll-linux.github.io/ppa/debian/miatoll.list"`
+  - `sudo apt update`
+
+
 ## Notes
 
 - The default password is `1234`.
